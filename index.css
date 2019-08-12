@@ -1,0 +1,144 @@
+.flex-nav-bar{
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.left-nav-div{
+    width: 40%;
+    height: 33%;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    background-color: black;
+    
+
+}
+
+.left-nav-buttons {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.right-nav-div{
+    width: 30%;
+    height: 20%;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    background-color: black;
+
+}
+
+.right-nav-buttons{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+
+
+.flex-nav-bar >div >h1{
+    color: white;
+    font-size: 30px;
+
+}
+
+.left-nav-bar{
+
+}
+
+.right-nav-bar{
+
+}
+
+.div-two{
+    width: 100%;
+    height: 70vh;
+    background-image: url(https://images.unsplash.com/photo-1517976547714-720226b864c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    position: relative;
+
+}
+
+.div-three{
+    width: 100vw;
+    height: 70px;
+    background-color: #14181A;
+    position: absolute;
+    bottom: 0;
+    /* position: absolute;
+    align-self: flex-end; */
+
+    
+}
+
+.div-four{
+    width: 100vw;
+    height: 100px;
+    background-color: #3F4144;
+    position: absolute;
+    bottom: 70px;
+        /* position: absolute;
+        align-self: flex-end;
+        */
+}
+
+.containerFive{
+    width: 100vw;
+    height: 74vh;
+    background-color: #FFFFFF;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.fiveOne{
+    width: 250px;
+    height: 250px;
+    background-color: #14181A;
+    margin-right: 30px;
+}
+
+.fiveTwo{
+    width: 250px;
+    height:250px;
+    background-color: #14181A;
+    margin-right: 30px;
+}   
+
+.fiveThree{
+    width: 250px;
+    height: 250px;
+    background-color: #14181A;
+}
+
+.menuLeft{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menuRight{
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
